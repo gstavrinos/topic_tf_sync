@@ -1,7 +1,7 @@
 # topic_tf_sync
 roscore
 
-(rosparam set user_sim_time true)
+rosparam set use_sim_time true
 
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 base_link laser 100
 
